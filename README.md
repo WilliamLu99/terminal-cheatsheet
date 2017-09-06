@@ -5,6 +5,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 ## Overview
 * [cd](#cd)
 * [less](#less)
+* [pwd](#pwd)
 * [tail](#tail)
 
 ## Commands
@@ -12,13 +13,18 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * Example
    * `$ cd nameofdirectory`
 * Description
-   * This command changes the current directory.
+   * This command changes the current directory. Adding ".." moves you up one directory.
    
 ### less
 * Example
   * `$ less nameoffile.txt`
 * Description
   * This command is used to view but not edit the contents of a text file one screen at a time
+### pwd
+* Example
+  * `$ pwd`
+* Description
+  * This command Prints the Working Directory (hence pwd), showing what directory you are in.
 ### tail
 * Example
    * `$ tail nameoffile.txt`
