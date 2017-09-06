@@ -3,6 +3,7 @@
 This is my command line cheat sheet. I can refer to this document in the future if I forget a specific command in the future.
 
 ## Overview
+* [cat](#cat)
 * [cd](#cd)
 * [cp](#cp)
 * [echo](#echo)
@@ -13,8 +14,17 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * [pwd](#pwd)
 * [rm](#rm)
 * [tail](#tail)
+* [>](#>)
+* [>>](#>)
+* [|](#|)
+
 
 ## Commands
+### cat
+* Example
+  * `$ cat hello.txt`
+* Description
+  * This command outputs the content of a file into the termianl (standard output)
 ### cd
 * Example
   * `$ cd nameofdirectory`
@@ -67,15 +77,38 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * This command is used to remove files or directories, permanently.
 * Options
   * -r stands for recursive, and is used to murder a directory and all its children.
+### sort
+* Example
+  * `$ sort nameoffile.txt`
+* Description
+  * This command takes in standard input and provides standard output, with the output being sorted alphabetically.
 ### tail
 * Example
-   * `$ tail nameoffile.txt`
+  * `$ tail nameoffile.txt`
 * Description
-   * This command displays the last portion of a file. It accepts optional arguments such as `-n` which allows you to indicate how many lines from the end of the file you'd like to display.
+  * This command displays the last portion of a file. It accepts optional arguments such as `-n` which allows you to indicate how many lines from the end of the file you'd like to display.
 ### touch
 * Example
-   * `$ touch keyboard.txt`
+  * `$ touch keyboard.txt`
 * Description
-   * This command creates a new new empty file inside the current directory, taking the filename as an argument.
-    
+  * This command creates a new new empty file inside the current directory, taking the filename as an argument.
+### >
+* Example
+  * `$ echo "hello" > hello.txt`
+* Description
+  * This command redirects output as input.
+  * The redirect command in this case redirects the standard output of echo into a file.
+  * When written in the other direction, it performs the same function, just the input and output are switched.
+  * Used to pass output to a file or stream.
+### >>
+* Example
+  * `$ cat mountains.txt >> clouds.txt`
+* Description
+  * This command redirects standard output, but has it be appended to the destination, intstead of replacing it.
+   * Essentially just an extension of the ">" command.
+### |
+* Example
+  * `$ cat volcanoes | wc | cat > islands.txt`
+* Description
+  * Used to pass output to a program or utility.
     
