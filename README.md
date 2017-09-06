@@ -82,11 +82,11 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * Last argument is the destination.
 ### nano_and_the_environment
 * Example
- * `$ nano`
+  * `$ nano`
 * Description
- * Built in text editor for terminal.
+  * Built in text editor for terminal.
 * ~/.bash_profile
- * `alias pd="pwd"` is a great way to create keyboard shortcuts for a given bash profile.
+  * `alias pd="pwd"` is a great way to create keyboard shortcuts for a given bash profile.
 ### pwd
 * Example
   * `$ pwd`
