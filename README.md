@@ -88,6 +88,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * ~/.bash_profile
   * `alias pd="pwd"` is a great way to create keyboard shortcuts for a given bash profile.
   * Environment variables look like `$THIS`
+  * `export VARIABLE="value"` sets and exports an environment variable.
 ### pwd
 * Example
   * `$ pwd`
