@@ -12,7 +12,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * [ls](#ls)
 * [mkdir](#mkdir)
 * [mv](#mv)
-* [nano](#nano and the environment)
+* [nano](#nano_and_the_environment)
 * [pwd](#pwd)
 * [rm](#rm)
 * [sed](#sed)
