@@ -12,7 +12,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * [ls](#ls)
 * [mkdir](#mkdir)
 * [mv](#mv)
-* [nano](#nano)
+* [nano](#nano and the environment)
 * [pwd](#pwd)
 * [rm](#rm)
 * [sed](#sed)
@@ -80,13 +80,13 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * Description
   * This command files or directories from one place to another. 
   * Last argument is the destination.
-### nano
+### nano and the environment
 * Example
  * `$ nano`
 * Description
  * Built in text editor for terminal.
 * ~/.bash_profile
- * `alias pd="pwd"` is a great way to 
+ * `alias pd="pwd"` is a great way to create keyboard shortcuts for a given bash profile.
 ### pwd
 * Example
   * `$ pwd`
