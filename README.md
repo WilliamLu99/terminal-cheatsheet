@@ -56,11 +56,11 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * This command Prints the Working Directory (hence pwd), showing what directory you are in.
 ### rm
 * Example
- * `$ rm`
+  * `$ rm`
 * Description
- * This command is used to remove files or directories, permanently.
+  * This command is used to remove files or directories, permanently.
 * Options
- * -r stands for recursive, and is used to murder a directory and all its children.
+  * -r stands for recursive, and is used to murder a directory and all its children.
 ### tail
 * Example
    * `$ tail nameoffile.txt`
