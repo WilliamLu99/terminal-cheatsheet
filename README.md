@@ -47,3 +47,11 @@ This command files or directories from one place to another.
    * `$ tail nameoffile.txt`
 * Description
    * This command displays the last portion of a file. It accepts optional arguments such as `-n` which allows you to indicate how many lines from the end of the file you'd like to display.
+   
+### touch
+* Example
+   * `$ touch keyboard.txt`
+* Description
+   * This command creates a new new empty file inside the current directory, taking the filename as an argument.
+    
+    
