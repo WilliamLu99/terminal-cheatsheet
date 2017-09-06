@@ -12,6 +12,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * [ls](#ls)
 * [mkdir](#mkdir)
 * [mv](#mv)
+* [nano](#nano)
 * [pwd](#pwd)
 * [rm](#rm)
 * [sed](#sed)
@@ -78,6 +79,11 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * Description
   * This command files or directories from one place to another. 
   * Last argument is the destination.
+### nano
+* Example
+ * `$ nano`
+* Description
+ * Built in text editor for terminal.
 ### pwd
 * Example
   * `$ pwd`
