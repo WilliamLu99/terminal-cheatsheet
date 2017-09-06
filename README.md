@@ -14,6 +14,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * [mv](#mv)
 * [pwd](#pwd)
 * [rm](#rm)
+* [sed](#sed)
 * [sort]($sort)
 * [tail](#tail)
 * [>](#>)
@@ -89,6 +90,16 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * This command is used to remove files or directories, permanently.
 * Options
   * -r stands for recursive, and is used to murder a directory and all its children.
+### sed
+* Example
+  * `$ sed 's/snow/rain/' forests.txt`
+* Description
+  * This command stands for Stream EDitor. 
+  * It accepts standard input and modifies it using an expression, before outputing it.
+* Espression Breakdown
+  * s stands for search and replace.
+  * snow is the search string.
+  * rain is the replacement string.
 ### sort
 * Example
   * `$ sort nameoffile.txt`
