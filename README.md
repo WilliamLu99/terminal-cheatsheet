@@ -8,7 +8,6 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * [cp](#cp)
 * [echo](#echo)
 * [grep](#grep)
-* [less](#less)
 * [ls](#ls)
 * [mkdir](#mkdir)
 * [mv](#mv)
@@ -55,11 +54,6 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * -i is used to make the command non case sensitive.
   * -R is used to make the command recursive, so that it searches through the children as well
   * -l is used to make the command output the filenames of of the files with matches, instead of just the lines.
-### less
-* Example
-  * `$ less nameoffile.txt`
-* Description
-  * This command is used to view but not edit the contents of a text file one screen at a time
 ### ls
 * Example
   * `$ ls`
