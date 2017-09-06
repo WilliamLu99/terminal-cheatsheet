@@ -6,6 +6,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * [cd](#cd)
 * [less](#less)
 * [ls](#ls)
+* [mkdir](#mkdir)
 * [mv]($mv)
 * [pwd](#pwd)
 * [tail](#tail)
@@ -16,7 +17,6 @@ This is my command line cheat sheet. I can refer to this document in the future 
    * `$ cd nameofdirectory`
 * Description
    * This command changes the current directory. Adding ".." moves you up one directory.
-   
 ### less
 * Example
   * `$ less nameoffile.txt`
@@ -27,6 +27,11 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * `$ ls`
 * Description
   * This command lists the files in the current working directory.
+### mkdir
+* Example
+  * `$ mkdir newdirectoryname`
+* Description
+  * This command creates a new directory.
 ### mv
 * Example
   * `$ mv myfile ~/myfile`
