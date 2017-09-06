@@ -5,6 +5,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 ## Overview
 * [cd](#cd)
 * [less](#less)
+* [mv]($mv)
 * [pwd](#pwd)
 * [tail](#tail)
 
@@ -20,6 +21,11 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * `$ less nameoffile.txt`
 * Description
   * This command is used to view but not edit the contents of a text file one screen at a time
+### mv
+* Example
+  * `$ mv myfile ~/myfile`
+* Description
+This command files or directories from one place to another. 
 ### pwd
 * Example
   * `$ pwd`
