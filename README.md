@@ -87,6 +87,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * Built in text editor for terminal.
 * ~/.bash_profile
   * `alias pd="pwd"` is a great way to create keyboard shortcuts for a given bash profile.
+  * Environment variables look like `$THIS`
 ### pwd
 * Example
   * `$ pwd`
