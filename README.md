@@ -12,6 +12,12 @@ This is my command line cheat sheet. I can refer to this document in the future 
    * `$ cd nameofdirectory`
 * Description
    * This command changes the current directory.
+   
+### less
+* Example
+  * `$ less nameoffile.txt`
+* Description
+  * This command is used to view but not edit the contents of a text file one screen at a time
 ### tail
 * Example
    * `$ tail nameoffile.txt`
