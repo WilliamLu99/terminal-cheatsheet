@@ -92,14 +92,15 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * -r stands for recursive, and is used to murder a directory and all its children.
 ### sed
 * Example
-  * `$ sed 's/snow/rain/' forests.txt`
+  * `$ sed 's/snow/rain/g' forests.txt`
 * Description
   * This command stands for Stream EDitor. 
-  * It accepts standard input and modifies it using an expression, before outputing it.
-* Espression Breakdown
-  * s stands for search and replace.
+  * It accepts standard input and modifies it using an expression, before outputing it, like search and replace.
+* Expression Breakdown
+  * s stands for substiution. It is always used when substituting.
   * snow is the search string.
   * rain is the replacement string.
+  * g stands for global, it means all isntances of snow will be replaced. Without it, only the first instance of snow per line would get replaced.
 ### sort
 * Example
   * `$ sort nameoffile.txt`
