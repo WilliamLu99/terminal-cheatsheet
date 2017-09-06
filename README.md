@@ -10,6 +10,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * [mkdir](#mkdir)
 * [mv](#mv)
 * [pwd](#pwd)
+* [rm](#rm)
 * [tail](#tail)
 
 ## Commands
@@ -53,12 +54,18 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * `$ pwd`
 * Description
   * This command Prints the Working Directory (hence pwd), showing what directory you are in.
+### rm
+* Example
+ * `$ rm`
+* Description
+ * This command is used to remove files or directories, permanently.
+* Options
+ * -r stands for recursive, and is used to murder a directory and all its children.
 ### tail
 * Example
    * `$ tail nameoffile.txt`
 * Description
    * This command displays the last portion of a file. It accepts optional arguments such as `-n` which allows you to indicate how many lines from the end of the file you'd like to display.
-   
 ### touch
 * Example
    * `$ touch keyboard.txt`
