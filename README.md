@@ -5,6 +5,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 ## Overview
 * [cd](#cd)
 * [cp](#cp)
+* [echo](#echo)
 * [less](#less)
 * [ls](#ls)
 * [mkdir](#mkdir)
@@ -24,6 +25,11 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * `$ cd file1.txt file2.txt`
 * Description
   * This command copies the contents of a file/directory (first args) to another (last arg)
+### echo
+* Example
+  * `echo hello`
+* Description
+  * This command accepts a standard input (through terminal) string and outputs a standard output (outputted terminal info)
 ### less
 * Example
   * `$ less nameoffile.txt`
