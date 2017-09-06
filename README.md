@@ -3,13 +3,13 @@
 This is my command line cheat sheet. I can refer to this document in the future if I forget a specific command in the future.
 
 ## Overview
-* [cd] (#cd)
+* [cd](#cd)
 * [tail](#tail)
 
 ## Commands
 ### cd
 * Example
-   * `$ cd nameofdirectory
+   * `$ cd nameofdirectory`
 * Description
    * This command changes the current directory.
 ### tail
