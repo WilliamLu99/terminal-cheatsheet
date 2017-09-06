@@ -22,7 +22,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * Example
   * `$ cd file1.txt file2.txt`
 * Description
-  * This command copies the contents of a file/directory (first arg) to another (second arg)
+  * This command copies the contents of a file/directory (first args) to another (last arg)
 ### less
 * Example
   * `$ less nameoffile.txt`
