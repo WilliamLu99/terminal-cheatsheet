@@ -16,7 +16,8 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * [pwd](#pwd)
 * [rm](#rm)
 * [sed](#sed)
-* [sort]($sort)
+* [sort](#sort)
+* [source](#source)
 * [tail](#tail)
 * [>](#>)
 * [>>](#>)
@@ -33,7 +34,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * Example
   * `$ cd nameofdirectory`
 * Description
-  * This command changes the current directory. Adding ".." moves you up one directory.
+  * This command changes the current directory. Adding `..` moves you up one directory.
 ### cp
 * Example
   * `$ cd file1.txt file2.txt`
@@ -65,7 +66,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * Description
   * This command lists the files in the current working directory.
 * Options
-  * -a is used to list hidden files/folders (things prefixed with ".").
+  * -a is used to list hidden files/folders (things prefixed with `.`).
   * -l is used to list everything in a long format.
   * -t is used to list things by the time they were last modified.
 ### mkdir
@@ -84,6 +85,8 @@ This is my command line cheat sheet. I can refer to this document in the future 
  * `$ nano`
 * Description
  * Built in text editor for terminal.
+* ~/.bash_profile
+ * `alias pd="pwd"` is a great way to 
 ### pwd
 * Example
   * `$ pwd`
@@ -112,6 +115,11 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * `$ sort nameoffile.txt`
 * Description
   * This command takes in standard input and provides standard output, with the output being sorted alphabetically.
+### source
+* Example
+  * `$ source ~/.bash_profile`
+* Description
+  * Evaluates argument as a list of commands, and runs it in the in the current context (session)
 ### tail
 * Example
   * `$ tail nameoffile.txt`
@@ -140,7 +148,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * `$ cat mountains.txt >> clouds.txt`
 * Description
   * This command redirects standard output, but has it be appended to the destination, intstead of replacing it.
-   * Essentially just an extension of the ">" command.
+   * Essentially just an extension of the `>` command.
 ### |
 * Example
   * `$ cat volcanoes | wc | cat > islands.txt`
