@@ -27,7 +27,10 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * `$ ls`
 * Description
   * This command lists the files in the current working directory.
-  * -a option can be added to list hidden files/folders too.
+* Options
+  * -a is used to list hidden files/folders (things prefixed with ".").
+  * -l is used to list everything in a long format.
+  * -t is used to list things by the time they were last modified.
 ### mkdir
 * Example
   * `$ mkdir newdirectoryname`
