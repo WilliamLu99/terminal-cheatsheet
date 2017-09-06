@@ -7,12 +7,14 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * [cd](#cd)
 * [cp](#cp)
 * [echo](#echo)
+* [grep](#grep)
 * [less](#less)
 * [ls](#ls)
 * [mkdir](#mkdir)
 * [mv](#mv)
 * [pwd](#pwd)
 * [rm](#rm)
+* [sort]($sort)
 * [tail](#tail)
 * [>](#>)
 * [>>](#>)
@@ -40,6 +42,16 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * `echo hello`
 * Description
   * This command accepts a standard input (through terminal) string and outputs a standard output (outputted terminal info)
+### grep
+* Example
+  * `grep Mount mountains.txt`
+* Description
+  * This command is short for Global Regular Expression Print.
+  * It searches for lines that match a pattern and returns the results.
+* Options
+  * -i is used to make the command non case sensitive.
+  * -R is used to make the command recursive, so that it searches through the children as well
+  * -l is used to make the command output the filenames of of the files with matches, instead of just the lines.
 ### less
 * Example
   * `$ less nameoffile.txt`
@@ -92,6 +104,11 @@ This is my command line cheat sheet. I can refer to this document in the future 
   * `$ touch keyboard.txt`
 * Description
   * This command creates a new new empty file inside the current directory, taking the filename as an argument.
+### uniq
+* Example
+  * `uniq deserts.txt`
+* Description
+  * Takes in input, and outputs data with identical, adjacent lines filtered out.
 ### >
 * Example
   * `$ echo "hello" > hello.txt`
