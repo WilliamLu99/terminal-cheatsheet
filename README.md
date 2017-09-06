@@ -8,7 +8,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * [less](#less)
 * [ls](#ls)
 * [mkdir](#mkdir)
-* [mv]($mv)
+* [mv](#mv)
 * [pwd](#pwd)
 * [tail](#tail)
 
@@ -46,7 +46,8 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * Example
   * `$ mv myfile ~/myfile`
 * Description
-This command files or directories from one place to another. 
+  * This command files or directories from one place to another. 
+  * Last argument is the destination.
 ### pwd
 * Example
   * `$ pwd`
