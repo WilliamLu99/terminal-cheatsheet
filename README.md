@@ -12,7 +12,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * [ls](#ls)
 * [mkdir](#mkdir)
 * [mv](#mv)
-* [nano](#nano_and_the_environment)
+* [nano and the environment](#nano_and_the_environment)
 * [pwd](#pwd)
 * [rm](#rm)
 * [sed](#sed)
@@ -80,7 +80,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 * Description
   * This command files or directories from one place to another. 
   * Last argument is the destination.
-### nano and the environment
+### nano_and_the_environment
 * Example
  * `$ nano`
 * Description
