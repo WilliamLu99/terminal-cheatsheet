@@ -4,6 +4,7 @@ This is my command line cheat sheet. I can refer to this document in the future 
 
 ## Overview
 * [cd](#cd)
+* [less](#less)
 * [tail](#tail)
 
 ## Commands
