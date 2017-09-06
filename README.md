@@ -14,9 +14,14 @@ This is my command line cheat sheet. I can refer to this document in the future 
 ## Commands
 ### cd
 * Example
-   * `$ cd nameofdirectory`
+  * `$ cd nameofdirectory`
 * Description
-   * This command changes the current directory. Adding ".." moves you up one directory.
+  * This command changes the current directory. Adding ".." moves you up one directory.
+### cp
+* Example
+  * `$ cd file1.txt file2.txt`
+* Description
+  * This command copies the contents of a file (first arg) to another (second arg)
 ### less
 * Example
   * `$ less nameoffile.txt`
